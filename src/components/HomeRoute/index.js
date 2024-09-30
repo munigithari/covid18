@@ -322,8 +322,12 @@ class HomeRoute extends Component {
   }
 
   listOfCovidCards = () => {
-    const {totalConfirmed, totalDeceased, totalRecovered, totalActive} =
-      this.state
+    const {
+      totalConfirmed,
+      totalDeceased,
+      totalRecovered,
+      totalActive,
+    } = this.state
 
     return (
       <>

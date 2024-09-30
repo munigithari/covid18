@@ -23,25 +23,29 @@ class StateCards extends Component {
 
     const confirmedCard = {
       name: 'Confirmed',
-      logo: 'https://res.cloudinary.com/charani/image/upload/v1636464213/check-mark_1_lisuol.png',
+      logo:
+        'https://res.cloudinary.com/charani/image/upload/v1636464213/check-mark_1_lisuol.png',
       value: districtConfirmed,
     }
 
     const activeCard = {
       name: 'Active',
-      logo: 'https://res.cloudinary.com/charani/image/upload/v1636464213/protection_1_cp5pye.png',
+      logo:
+        'https://res.cloudinary.com/charani/image/upload/v1636464213/protection_1_cp5pye.png',
       value: districtActive,
     }
 
     const recoveredCard = {
       name: 'Recovered',
-      logo: 'https://res.cloudinary.com/charani/image/upload/v1636464213/recovered_1_mdqlwz.png',
+      logo:
+        'https://res.cloudinary.com/charani/image/upload/v1636464213/recovered_1_mdqlwz.png',
       value: districtRecovered,
     }
 
     const deceasedCard = {
       name: 'Deceased',
-      logo: 'https://res.cloudinary.com/charani/image/upload/v1636464213/breathing_1_qmzlyj.png',
+      logo:
+        'https://res.cloudinary.com/charani/image/upload/v1636464213/breathing_1_qmzlyj.png',
       value: districtDeceased,
     }
 
