@@ -308,7 +308,7 @@ class HomeRoute extends Component {
     const {listOfSearchState} = this.state
 
     return (
-      <ul testid="searchResultsUnorderedList" className="search-ul-class">
+      <ul className="search-ul-class" testid="searchResultsUnorderedList">
         {listOfSearchState.map(eachItem => (
           <SearchState
             stateName={eachItem.state_name}
